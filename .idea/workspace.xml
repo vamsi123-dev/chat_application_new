@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8420e87b-2a92-43b8-9de9-cfde38687d6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/.bundle/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/__tests__/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/debug.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/java/com/chatappbmc/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/java/com/chatappbmc/MainApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/drawable/rn_edit_text_material.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/.xcode.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC.xcodeproj/xcshareddata/xcschemes/ChatAppBMC.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/ChatAppBMC/PrivacyInfo.xcprivacy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatAppBMC/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ChatAppBMC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2xlCtqBzahwhak9ZGehtKs6LlgR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8420e87b-2a92-43b8-9de9-cfde38687d6d" name="Changes" comment="" />
+      <created>1748503491778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748503491778</updated>
+    </task>
+    <servers />
+  </component>
+</project>
