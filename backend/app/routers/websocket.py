@@ -111,4 +111,4 @@ async def websocket_endpoint(
                 "username": user.username
             }),
             ticket_id
-        ) 
+        )

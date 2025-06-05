@@ -2,14 +2,32 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from backend.app.routers import auth, tickets, messages, websocket
-from backend.app import models
 from backend.app.database import engine, Base
+from backend.app import models
 from backend.app.config import settings
+from sqlalchemy import text
+from sqlalchemy.exc import OperationalError
+
 
 # Create tables
 Base.metadata.create_all(bind=engine)
 
+with engine.connect() as connection:
+    connection.execute(text("SELECT 1"))
+
+
+from sqlalchemy.exc import OperationalError
+
+try:
+    with engine.connect() as connection:
+        connection.execute(text("SELECT 1"))  # wrap string with text()
+    print("✅ Database connection successful.")
+except OperationalError as e:
+    print("❌ Database connection failed:", e)
+
+
 app = FastAPI(title="Support Chat API")
+
 
 # Add session middleware
 app.add_middleware(
