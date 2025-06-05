@@ -58,7 +58,18 @@ def register(user: schemas.UserCreate, db: Session = Depends(database.get_db)):
     db.add(db_user)
     db.commit()
     db.refresh(db_user)
-    return db_user
+    return {
+        "success": True,
+        "message": "Registration successful",
+        
+        "id": db_user.id,
+        "username": db_user.username,
+        "email": db_user.email,
+        "is_admin": db_user.is_admin
+        
+    }
+
+
 
 @router.post("/login")
 async def login(

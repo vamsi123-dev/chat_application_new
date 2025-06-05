@@ -2,7 +2,7 @@ from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, DateTime, T
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from .database import Base
-
+from backend.app.database import Base, engine
 class User(Base):
     __tablename__ = "users"
 

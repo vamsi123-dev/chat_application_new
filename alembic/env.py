@@ -2,15 +2,23 @@ from logging.config import fileConfig
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from alembic import context
-import os
-import sys
+
 from dotenv import load_dotenv
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 
 # Add the parent directory to Python path
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from backend.models import Base
-from backend.database import SQLALCHEMY_DATABASE_URL
+from backend.app.models import Base
+
+from backend.app.database import Base
+from backend.app.database import SQLALCHEMY_DATABASE_URL
+
+
 
 # Load environment variables
 load_dotenv()
