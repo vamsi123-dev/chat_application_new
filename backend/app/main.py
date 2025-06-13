@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.sessions import SessionMiddleware
 from backend.app.routers import auth, tickets, messages, websocket
-from backend.app.database import engine, Base
+from backend.database import engine, Base
 from backend.app import models
 from backend.app.config import settings
 from sqlalchemy import text

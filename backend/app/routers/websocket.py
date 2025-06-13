@@ -1,7 +1,8 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect, Depends, Request, HTTPException, status
 from typing import Dict, List
 import json
-from .. import models, database
+from .. import models
+from backend import database
 from sqlalchemy.orm import Session
 from ..routers.auth import get_current_user
 

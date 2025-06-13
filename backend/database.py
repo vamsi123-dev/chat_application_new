@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from backend.app import models
+
 
 SQLALCHEMY_DATABASE_URL = "mysql+pymysql://chat_users_bmc:chat123@localhost/support_chat_bmc"
 

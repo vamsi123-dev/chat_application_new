@@ -3,7 +3,8 @@ from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from typing import Optional
 from pydantic import BaseModel
-from .. import models, database, schemas
+from .. import models, schemas
+from backend import database
 from ..config import settings
 from ..utils import verify_password
 

@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException, status, Request
 from sqlalchemy.orm import Session
 from typing import List
-from .. import models, database, schemas
+from .. import models,  schemas
+from backend import database
 from ..routers.auth import get_current_user
 
 from pydantic import BaseModel
@@ -24,7 +25,7 @@ class TicketResponse(TicketBase):
     class Config:
         from_attributes = True
 
-@router.post("/tickets/", response_model=schemas.TicketResponse)
+@router.post("/Orders/", response_model=schemas.TicketResponse)
 def create_ticket(
     ticket: schemas.TicketCreate,
     request: Request,
@@ -53,7 +54,7 @@ def create_ticket(
     db.refresh(db_ticket)
     return db_ticket
 
-@router.get("/tickets/", response_model=List[schemas.TicketResponse])
+@router.get("/Orders/", response_model=List[schemas.TicketResponse])
 def get_tickets(
     request: Request,
     db: Session = Depends(database.get_db),
@@ -65,7 +66,7 @@ def get_tickets(
         tickets = db.query(models.Ticket).filter(models.Ticket.user_id == current_user.id).all()
     return tickets
 
-@router.get("/tickets/{ticket_id}", response_model=schemas.TicketResponse)
+@router.get("/Orders/{ticket_id}", response_model=schemas.TicketResponse)
 def get_ticket(
     ticket_id: int,
     request: Request,
@@ -79,7 +80,7 @@ def get_ticket(
         raise HTTPException(status_code=403, detail="Not authorized to access this ticket")
     return ticket
 
-@router.put("/tickets/{ticket_id}/status")
+@router.put("/Orders/{ticket_id}/status")
 def update_ticket_status(
     ticket_id: int,
     status: str,
