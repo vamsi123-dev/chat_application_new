@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from typing import Dict
 import json
+from backend.app.routers import auth, tickets, messages, websocket
 from database import get_db, engine
 import models
 
