@@ -4,6 +4,7 @@ from sqlalchemy.orm import Session
 from typing import Dict
 import json
 from database import get_db, engine
+from backend.app.routers import auth, tickets, messages, websocket
 import models
 
 # Create tables
